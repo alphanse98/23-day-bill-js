@@ -1,0 +1,25 @@
+ body{
+    background-color: #3a4757;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: rgb(202, 202, 202);
+}
+.left{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border-color: white;
+}
+td {
+    width: 150px;
+    height: 35px;
+    border-color: white;
+    background-color: #2A5195;
+
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <table border="2px">
+            <tr>
+                <td>Prodect</td>
+                <td>Quantity</td>
+                <td>Unit Price</td>
+                <td>Price</td>
+            </tr>
+            <tr>
+                <td>millk</td>
+
+                <td><select name="" id="millkOPtion" onchange="millk()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+
+                    </select>
+                </td>
+
+                <td id="millkPrice">40</td>
+                <td id="millkTotalPrice"></td>
+            </tr>
+
+            <td>sugar</td>
+
+            <td><select name="" id="sugarOPtion" onchange="sugar()">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select>
+            </td>
+
+            <td id="sugarPrice">30</td>
+            <td id="sugarTotalPrice"></td>
+            </tr>
+
+            <td>Boost</td>
+
+            <td><select name="" id="boostOption" onchange="boost()">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select>
+            </td>
+
+            <td id="boostPrice">10</td>
+            <td id="boostTotalPrice"></td>
+            </tr>
+
+            <tr class="left">
+                <td colspan="3">Total</td>
+                <td id="totalPrice"></td>
+            </tr>
+
+            <tr class="left">
+                <td colspan="3">GST 18%</td>
+                <td id="gst"></td>
+            </tr>
+
+            <tr class="left">
+                <td colspan="3">Grand Total</td>
+                <td id="Total"></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
