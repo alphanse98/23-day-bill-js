@@ -3,7 +3,7 @@ var sugarTotalPrice = 0;
 var boostTotalPrice = 0;
 
 function millk() {
-    millkTotalPrice = 40 * document.getElementById('millkOPtion').value
+    millkTotalPrice = 45 * document.getElementById('millkOPtion').value;
     document.getElementById('millkTotalPrice').innerHTML = millkTotalPrice
     grandTotal()
 }
@@ -34,3 +34,5 @@ function grandTotal() {
     console.log(Total)
 
 }
+
+// l,,l,
